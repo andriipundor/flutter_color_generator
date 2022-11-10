@@ -1,7 +1,7 @@
 import 'dart:math';
 import 'package:flutter/material.dart';
 
-/// Home Page
+/// Home Page Class
 class MyHomePage extends StatefulWidget {
 
   @override
@@ -16,7 +16,7 @@ class _MyHomePageState extends State<MyHomePage> {
   int _blue = 255;
 
 
-
+///The function change rgb
   void _changeColor() {
     setState(() {
       _red = Random().nextInt(_max);
